@@ -11,11 +11,11 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 a {
     display: block;
-    padding: 8px;
+    padding: 0px;
     background-color: #FFFFFF;
 }
