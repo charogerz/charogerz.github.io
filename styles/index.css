@@ -11,13 +11,12 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 a {
     display: block;
     padding: 8px;
-    background-color: #FFFFFF;
 }
 
 .header img {
