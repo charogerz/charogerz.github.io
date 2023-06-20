@@ -30,3 +30,9 @@ ul {
     top: 50px;
     left: 10px;
 }
+
+.main-categories img {
+    float: left;
+    width: 400px;
+    height: 600px;
+}
