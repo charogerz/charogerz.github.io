@@ -8,6 +8,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 li {
@@ -27,6 +28,6 @@ a {
 
 .header h1 {
     position: relative;
-    top: 18px;
+    top: 25px;
     left: 10px;
 }
