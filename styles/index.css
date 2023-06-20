@@ -8,14 +8,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-a {
+.navbar a {
     display: block;
     padding: 8px;
 }
@@ -28,6 +27,6 @@ a {
 
 .header h1 {
     position: relative;
-    top: 25px;
+    top: 50px;
     left: 10px;
 }
