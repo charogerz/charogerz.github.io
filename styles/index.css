@@ -19,3 +19,9 @@ a {
     padding: 8px;
     background-color: #FFFFFF;
 }
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
