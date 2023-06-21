@@ -36,3 +36,10 @@ ul {
     width: 260px;
     height: 300px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
