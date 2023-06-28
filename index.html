@@ -7,42 +7,49 @@
     <meta name="descrciption"
         content="Charlotte Rogers is a student studying Design and Technology at Parsons School of Design in NYC with a focus in UI/UX Development and Graphic Design.">
     <link rel="stylesheet" href="styles/index.css">
-    <title> Charlotte Rogers Designs</title>
 </head>
 
 <body dir="ltr">
-    <nav class="navbar">
-        <div class="container"></div>
-        <ul class="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="contact">Contact</a></li>
-        </ul>
+
+    <!-- Nav -->
+    <div class="top">
+        <div class="bar wide padding">
+            <a href="#home" class="bar button"><b>Charlotte Rogers</b>Designs</a>
+            <div class="right hidesmall">
+                <a href="#home" class="bar button">Home</a>
+                <a href="#about" class="bar button">About</a>
+                <a href="#projects" class="bar button">Projects</a>
+                <a href="#contact" class="bar button">Contact</a>
+            </div>
         </div>
-    </nav>
-    <br />
-    <header>
-        <div class="header">
-            <img src="images/logo_square.png" alt="logo" />
-            <h1>Charlotte Rogers: Explore My Work</h1>
+    </div>
+
+    <!-- Header -->
+    <header class="container wide" style="max-width:1500px;" id="home">
+        <!-- HEADER IMAGE HERE -->
+        <div class="middle topmargin center">
+            <h1 class="large whitetext"> <span class="black padding sheer"><b>Charlotte Rogers</b></span> <span
+                    class="hidesmall lightgray">Designs</span> </h1>
         </div>
     </header>
-    <br />
-    <br />
-    <main class="main-categories">
-        <p>I am currently completing my MFA in Design and Technology at Parsons School of Design and am based in the
-            Brooklyn, NY area. I focus much of my designs on Design Justice and overlapping my design skills with my
-            passion
-            for social justice and accessibility.</p>
-        <br />
-        <a href="projects">
-            <img src="images/zine_img.jpg">
-        </a>
-        <br />
-        <a href="projects">
-            <img src="images/glasses_render.jpg" class="center">
-        </a>
-    </main>
+
+    <!-- Main Body-->
+    <div class="content padding" style="max-width:1546px"></div>
+
+    <!-- Projects -->
+    <div class="container padding" id="projects">
+        <h3 class="padding">Projects</h3>
+    </div>
+
+    <div class="sectionspadding">
+        <div class="column bottommargin">
+            <div class="container">
+                <div class="topleft black padding">Resource Zine</div>
+                <img src="/images/zine_img.jpg" alt="Zine" style="width:100%">
+            </div>
+        </div>
+        
+    </div>
 </body>
+
 </html>
